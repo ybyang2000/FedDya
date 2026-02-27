@@ -1,4 +1,4 @@
-# FedDYA Data Generation Support
+# FedDya Data Generation Support
 
 This script provides data generation and highly controllable Non-IID partitioning support for **FedDya**. 
 
