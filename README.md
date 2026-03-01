@@ -19,8 +19,16 @@ It utilizes a dual Dirichlet Distribution to precisely control both Quantity Ske
 3. **Four-Corner Mosaic CIFAR-100**
    - Extracts sub-classes from 4 specified coarse superclasses (large mammals, small/medium mammals, household electrical devices, household furniture).
    - Assembles them into a 64x64 four-corner mosaic image. 
-4. **Custom FLAME Dataset**
-   - Supports locally loaded forest/fire datasets, returning both Primary and Secondary labels.
+4. **FLAME Dataset (UAV Aerial Imagery)**
+   - Supports aerial imagery for multi-task scenarios: scene recognition and wildfire monitoring.
+   - **Note**: Requires the pre-processed FLAME dataset files.
+
+## 💾 Dataset Access (Large Files)
+
+Due to GitHub's file size limitations, the processed **FLAME** dataset is hosted on Google Drive to ensure full reproducibility.
+
+- **Download Link**: [Download flame.zip](https://drive.google.com/file/d/11qQX7QQC9SkY22D_bOplELnZxk-m3N8Z/view?usp=sharing)
+- **Instructions**: Please download and extract the `flame.zip` archive into your local `data/` directory before running the generation scripts.
 
 ## 🛠️ Requirements
 
