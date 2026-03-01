@@ -13,7 +13,7 @@ It utilizes a dual Dirichlet Distribution to precisely control both Quantity Ske
 ## 📊 Supported Scenarios (4 Datasets)
 
 1. **Multi-Attribute MNIST (Colored & Rotated)**
-   - Contains labels across three dimensions: digit classification, foreground color prediction, and rotation angle prediction.
+   - Contains labels across three dimensions: digit classification, foreground color recognition, and rotation angle recognition.
 2. **Paired CIFAR-10**
    - Horizontally concatenates an "animal" image and a "vehicle" image. Designed for dual-branch/dual-task networks.
 3. **Four-Corner Mosaic CIFAR-100**
